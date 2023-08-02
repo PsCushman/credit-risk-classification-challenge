@@ -1,4 +1,4 @@
-# credit-risk-classification-challenge
+# Credit Risk Classification
 
 ## Instructions
 
