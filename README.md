@@ -10,7 +10,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
   - Confusion Matrix
 
-![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
+  ![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
     
   - Balanced Accuracy Score: 0.95
   - F1-score for label 0 (healthy loan): 1.00
@@ -22,12 +22,12 @@ In this data analysis, we evaluated the performance of two machine learning mode
   
   - Confusion Matrix
     
-![Screen Shot 2023-08-04 at 2 59 22 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f60b38e-fab2-42b3-9043-81ad473b7c65)
+  ![Screen Shot 2023-08-04 at 2 59 22 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f60b38e-fab2-42b3-9043-81ad473b7c65)
 
   - Balanced Accuracy Score: 0.99
   - F1-score for label 0 (healthy loan): 1.00
   - F1-score for label 1 (high-risk loan): 0.92
-  - 
+
 ![Screen Shot 2023-08-04 at 3 01 58 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f0ff366-e76d-4f1d-bf03-646f4baaf722)
 
 
