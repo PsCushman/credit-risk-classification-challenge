@@ -6,6 +6,18 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
 ## Results
 
+* **Machine Learning Model 1 (Logistocal Regression)**:
+  - Confusion Matrix
+  - Balanced Accuracy Score: 0.95
+  - F1-score for label 0 (healthy loan): 1.00
+  - F1-score for label 1 (high-risk loan): 0.88
+
+* **Machine Learning Model 2 (Logistocal Regression with Oversampled Data)**:
+  - Confusion Matrix
+  - Balanced Accuracy Score: 0.99
+  - F1-score for label 0 (healthy loan): 1.00
+  - F1-score for label 1 (high-risk loan): 0.92
+
 * Machine Learning Model 1 **(Logistocal Regression**):
 
   *Confusion Matrix
