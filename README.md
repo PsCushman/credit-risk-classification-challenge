@@ -8,7 +8,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
 * **Machine Learning Model 1 (Logistocal Regression)**:
   - Confusion Matrix
-    ![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
+  - ![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
   - Balanced Accuracy Score: 0.95
   - F1-score for label 0 (healthy loan): 1.00
   - F1-score for label 1 (high-risk loan): 0.88
@@ -16,45 +16,14 @@ In this data analysis, we evaluated the performance of two machine learning mode
     
 * **Machine Learning Model 2 (Logistocal Regression with Oversampled Data)**:
   - Confusion Matrix
+  - ![Screen Shot 2023-08-04 at 2 59 22 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f60b38e-fab2-42b3-9043-81ad473b7c65)
   - Balanced Accuracy Score: 0.99
   - F1-score for label 0 (healthy loan): 1.00
   - F1-score for label 1 (high-risk loan): 0.92
+  ![Screen Shot 2023-08-04 at 3 01 58 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f0ff366-e76d-4f1d-bf03-646f4baaf722)
 
-* Machine Learning Model 1 **(Logistocal Regression**):
-
-  *Confusion Matrix
-  
-
-
-  *Balanced Accuracy Score: 0.95
-
-  *F1-score for label 0 (healthy loan): 1.00
-
-  *F1-score for label 1 (high-risk loan): 0.88
-
-
-
-* Machine Learning Model 2 (**Logistocal Regression with Oversampled Data**):
-
-  *Confusion Matrix
-  
-![Screen Shot 2023-08-04 at 2 59 22 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f60b38e-fab2-42b3-9043-81ad473b7c65)
-
-  *Balanced Accuracy Score: 0.99
-
-  *F1-score for label 0 (healthy loan): 1.00
-
-  *F1-score for label 1 (high-risk loan): 0.92
-
-![Screen Shot 2023-08-04 at 3 01 58 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f0ff366-e76d-4f1d-bf03-646f4baaf722)
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
 
 *The logistic regression model with RandomOverSampler shows improved performance compared to the original logistic regression model. It achieves higher balanced accuracy, indicating a better overall balance in predicting both healthy and high-risk loans. Additionally, the F1-scores for both labels have improved, suggesting better precision and recall for both classes.*
 
