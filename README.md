@@ -1,50 +1,57 @@
 # Credit Risk Classification
 
-## Instructions
+## Overview
 
-**Split the Data into Training and Testing Sets**
+In this data analysis, we evaluated the performance of two machine learning models for predicting loan risk – the original logistic regression model and the logistic regression model with RandomOverSampler. The goal was to identify which model performs best in predicting both healthy and high-risk loans, taking into account precision, recall, and balanced accuracy.
 
-Create a Logistic Regression Model with the Original Data
+## Results
 
-**Write a Credit Risk Analysis Report**
+* Machine Learning Model 1 **(Logistocal Regression**):
 
-Split the Data into Training and Testing Sets
-Open the starter code notebook and use it to complete the following steps:
+  *Confusion Matrix
+  
+![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
 
-Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
+  *Balanced Accuracy Score: 0.95
 
-Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+  *F1-score for label 0 (healthy loan): 1.00
 
-NOTE
-A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+  *F1-score for label 1 (high-risk loan): 0.88
 
-Split the data into training and testing datasets by using train_test_split.
+![Screen Shot 2023-08-04 at 3 00 56 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/4894c2d1-30f3-4356-99b5-e7ca8598b0b2)
 
-Create a Logistic Regression Model with the Original Data
-Use your knowledge of logistic regression to complete the following steps:
+* Machine Learning Model 2 (**Logistocal Regression with Oversampled Data**):
 
-Fit a logistic regression model by using the training data (X_train and y_train).
+  *Confusion Matrix
+  
+![Screen Shot 2023-08-04 at 2 59 22 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f60b38e-fab2-42b3-9043-81ad473b7c65)
 
-Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+  *Balanced Accuracy Score: 0.99
 
-Evaluate the model’s performance by doing the following:
+  *F1-score for label 0 (healthy loan): 1.00
 
-Generate a confusion matrix.
+  *F1-score for label 1 (high-risk loan): 0.92
 
-Print the classification report.
-
-Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
-
-**Write a Credit Risk Analysis Report**
-Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
+![Screen Shot 2023-08-04 at 3 01 58 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f0ff366-e76d-4f1d-bf03-646f4baaf722)
 
 ## Summary
 
-Structure your report by using the report template that Starter_Code.zip includes, ensuring that it contains the following:
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+* Which one seems to perform best? How do you know it performs best?
+* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-An overview of the analysis: Explain the purpose of this analysis.
+If you do not recommend any of the models, please justify your reasoning.
 
-The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+*The logistic regression model with RandomOverSampler shows improved performance compared to the original logistic regression model. It achieves higher balanced accuracy, indicating a better overall balance in predicting both healthy and high-risk loans. Additionally, the F1-scores for both labels have improved, suggesting better precision and recall for both classes.*
 
-A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+*It is important to consider the problem we are trying to solve when evaluating the model's performance. In the context of predicting loan risk, both precision and recall for both classes (healthy and high-risk loans) are critical. A high precision ensures that when the model predicts a loan as high-risk, it is very likely to be true, which helps in avoiding bad loans. A high recall ensures that the model identifies most of the actual high-risk loans, which is essential for minimizing the risk to the lender.*
 
+*Considering the improved performance and the importance of correctly identifying both healthy and high-risk loans, the logistic regression model with RandomOverSampler is recommended for this loan risk prediction problem.*
+
+*The logistic regression model, trained on the oversampled data, is a more relaiable tool and conservative model for predicting both healthy and high-risk loans, making it valuable for assessing loan risk in this scenario. While there are slighly more false positives i.e. (the oversampled model incorrectly classified 86 healthy loans as high-risk loans as opposed to 75 in the first model), this model almost emilinated false negatives i.e. (it incorrectly classified 3 high-risk loans as healthy loans as opposed to 46 in the first model).*
+
+*For loan seekers, this model might provide for some frustating expereinces, but for a risk adverse bank, this model performs extremely well and would proably be adopted over the pervious model without the oversampled data.*
+
+## Consclusion
+
+*That said, it is crucial to remember that model selection also depends on other factors such as interpretability, computational resources, and the size of the dataset. If the dataset is extremely large, other algorithms such as deep learning models might be considered. Since it is always a good practice to try different models and select the one that best fits the problem and data characteristics, it may be useful to try other models to see if we could decrease the number of false negatives to avoid fustrating loan seekers. In additional, since there are a large number of flase negatives in this model, it would be prudent to dig deeper into the loans set to be denied to make sure the model is not biased. It is crucial to ensure that the model is not biased, especially if certain loan seekers are disproportionately affected by the misclassifications. If, for instance, there is a substantial number of incorrectly classified loans that are disproportionately associated with specific demographic groups, necessary adjustments to the model should be made to ensure its fairness and equitable treatment of all loan applicants.*
