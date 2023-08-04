@@ -8,10 +8,12 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
 * **Machine Learning Model 1 (Logistocal Regression)**:
   - Confusion Matrix
+    ![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
   - Balanced Accuracy Score: 0.95
   - F1-score for label 0 (healthy loan): 1.00
   - F1-score for label 1 (high-risk loan): 0.88
-
+    ![Screen Shot 2023-08-04 at 3 00 56 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/4894c2d1-30f3-4356-99b5-e7ca8598b0b2)
+    
 * **Machine Learning Model 2 (Logistocal Regression with Oversampled Data)**:
   - Confusion Matrix
   - Balanced Accuracy Score: 0.99
@@ -22,7 +24,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
   *Confusion Matrix
   
-![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
+
 
   *Balanced Accuracy Score: 0.95
 
@@ -30,7 +32,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
   *F1-score for label 1 (high-risk loan): 0.88
 
-![Screen Shot 2023-08-04 at 3 00 56 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/4894c2d1-30f3-4356-99b5-e7ca8598b0b2)
+
 
 * Machine Learning Model 2 (**Logistocal Regression with Oversampled Data**):
 
