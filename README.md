@@ -8,6 +8,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
 * **Machine Learning Model 1 (Logistocal Regression)**:
   - Confusion Matrix
+    
     ![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
     
   - Balanced Accuracy Score: 0.95
