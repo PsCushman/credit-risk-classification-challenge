@@ -12,9 +12,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 
   ![Screen Shot 2023-08-04 at 3 01 20 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/01965e28-0725-4549-9809-675575a39f90)
 
-  ![confusion_matrix_oversampled](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/9c20b37c-aa19-420c-ae20-f589039021c7)
-
-    ![Screen Shot 2023-08-04 at 9 10 52 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/c791ff69-c0bc-4078-8e9f-13f185fd19ab)
+  ![confusion_matrix_plot_logistic_regression](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/b5a8270d-ebd6-4e47-bd55-312904da9d8d)
 
   - Balanced Accuracy Score: 0.95
   - F1-score for label 0 (healthy loan): 1.00
@@ -28,9 +26,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
     
   ![Screen Shot 2023-08-04 at 2 59 22 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6f60b38e-fab2-42b3-9043-81ad473b7c65)
 
-  ![confusion_matrix_plot_logistic_regression](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/b5a8270d-ebd6-4e47-bd55-312904da9d8d)
-
-![Screen Shot 2023-08-04 at 9 11 21 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/1918c4da-f118-4368-8c4c-e08c6ece1241)
+  ![confusion_matrix_oversampled](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/9c20b37c-aa19-420c-ae20-f589039021c7)
 
   - Balanced Accuracy Score: 0.99
   - F1-score for label 0 (healthy loan): 1.00
