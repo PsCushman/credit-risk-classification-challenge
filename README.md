@@ -54,3 +54,9 @@ In this data analysis, we evaluated the performance of two machine learning mode
 *In additional, since there is a sizeable number of false negatives in this model, it would be prudent to dig deeper into the loans set to be denied making sure the model is not biased. It is crucial to ensure that the model is not biased, especially if certain loan seekers are disproportionately affected by the misclassifications. If, for instance, there is a substantial number of incorrectly classified loans that are disproportionately associated with specific demographic groups, necessary adjustments to the model should be made to ensure its fairness and equitable treatment of all loan applicants.*
 
 *In conclusion, the logistic regression model with RandomOverSampler emerges as the recommended model due to its improved performance and ability to predict both healthy and high-risk loans effectively. However, it is essential to continue exploring other models, consider interpretability, and conduct fairness analysis to enhance the overall loan risk prediction process and ensure equitable treatment of loan applicants.*
+
+## Resources
+
+For plotting a better looking confusion matrix I used code from:
+
+https://dfrieds.com/machine-learning/visual-introduction-classification-logistic-regression-python.html#confusion-matrix
