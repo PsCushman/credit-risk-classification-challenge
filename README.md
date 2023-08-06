@@ -60,3 +60,7 @@ In this data analysis, we evaluated the performance of two machine learning mode
 For plotting a better looking confusion matrix I used code from:
 
 https://dfrieds.com/machine-learning/visual-introduction-classification-logistic-regression-python.html#confusion-matrix
+
+And for permutation importance, I spoke with my tutor and used code from:
+
+https://scikit-learn.org/stable/modules/permutation_importance.html
