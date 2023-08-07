@@ -1,5 +1,7 @@
 # Credit Risk Classification
 
+![Screen Shot 2023-08-07 at 8 40 05 AM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/1ab5a6df-2e13-4543-a8ec-de52ac9d56fd)
+
 ## Overview
 
 In this data analysis, we evaluated the performance of two machine learning models for predicting loan risk – the original logistic regression model and the logistic regression model with RandomOverSampler. The goal was to identify which model performs best in predicting both healthy and high-risk loans, taking into account precision, recall, and balanced accuracy.
