@@ -60,6 +60,24 @@ There are two notebooks. One should be used for grading and it clearly marked as
 
 *In conclusion, the logistic regression model with RandomOverSampler emerges as the recommended model due to its improved performance and ability to predict both healthy and high-risk loans effectively. However, it is essential to continue exploring other models, consider interpretability, and conduct fairness analysis to enhance the overall loan risk prediction process and ensure equitable treatment of loan applicants.*
 
+## "EXTRAS"
+
+While I had a relativley easy time training and testing the models for the assigment, I was having an issue understanding how the model was making a prediction. So I did a little research and decided that trying to plot a prediction curve would be helpful, just for my own understanding. First, since I couldn't plot a 7 demention plot at this point, I used the permutation importance feature from scikit-learn to decide which single X column to train and test the model.
+
+![Screen Shot 2023-08-07 at 4 24 15 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/64a707a2-6661-4182-8491-1caa18e0ec78)
+
+For this, I used the borrower income from the over sampled data model because it seemed to have the most imortance from the oversampled model.  
+
+From there, I used the protected probability function from scikit-learn to plot a decision curve based on a model train just with the borrower income, just so I could see a predicted probability curve.
+
+![Screen Shot 2023-08-07 at 4 25 06 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/4485d939-91d9-4812-b7d8-7ee18c40a09c)
+
+From there, I plotted the predicted values along the curve.
+
+![Screen Shot 2023-08-07 at 4 26 59 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/6bc11f1c-020b-471e-be39-82481190ec8a)
+
+In the end, this helped me understand the decision making on another level. Still a lot to learn.
+
 ## Resources
 
 For plotting a better looking confusion matrix I used code from:
