@@ -7,6 +7,8 @@
 
 In this data analysis, we evaluated the performance of two machine learning models for predicting loan risk – the original logistic regression model and the logistic regression model with RandomOverSampler. The goal was to identify which model performs best in predicting both healthy and high-risk loans, taking into account precision, recall, and balanced accuracy.
 
+There are two notebooks. One should be used for grading and it clearly marked as such (credit_risk_classification_FOR_GRADING.ipynb). The other was for my own use to gain a better understanding about how the model is making the predictions (credit_risk_classifacation_extras.ipynb).
+
 ## Results
 
 * **Machine Learning Model 1 (Logistocal Regression)**:
