@@ -62,7 +62,7 @@ There are two notebooks. One should be used for grading and it clearly marked as
 
 ## "EXTRAS"
 
-While I had a relativley easy time training and testing the models for the assigment, I was having an issue understanding how the model was making a prediction. So I did a little research and decided that trying to plot a prediction curve would be helpful, just for my own understanding. First, since I couldn't plot a 7 demention plot at this point, I used the permutation importance feature from scikit-learn to decide which single X column to train and test the model.
+While I had a relativley easy time training and testing the models for the assigment, I was having an issue understanding how the model was making a prediction. So I did a little research and decided that trying to plot a prediction curve would be helpful, just for my own understanding. First, since I am not able plot in seven dimensions at this point, I used the permutation importance feature from scikit-learn to decide which single X column to train and test the model.
 
 ![Screen Shot 2023-08-07 at 4 24 15 PM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/64a707a2-6661-4182-8491-1caa18e0ec78)
 
