@@ -1,6 +1,7 @@
 # Credit Risk Classification
 
-![Screen Shot 2023-08-07 at 8 40 05 AM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/1ab5a6df-2e13-4543-a8ec-de52ac9d56fd)
+![Screen Shot 2023-08-07 at 8 41 16 AM](https://github.com/PsCushman/credit-risk-classification-challenge/assets/122395437/75b91323-a3cc-4cb1-9b2b-f2f811fef08d)
+
 
 ## Overview
 
