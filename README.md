@@ -64,3 +64,7 @@ https://dfrieds.com/machine-learning/visual-introduction-classification-logistic
 And for permutation importance, I spoke with my tutor and used code from:
 
 https://scikit-learn.org/stable/modules/permutation_importance.html
+
+For the final plots in the "extras" notebook, I found code at:
+
+https://www.kaggle.com/code/aakritsinghal/logistic-regression-visualisation
